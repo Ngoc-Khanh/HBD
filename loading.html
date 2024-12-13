@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="assets/img/mocha5final.gif">
+
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Protest Riot', sans-serif;
+      /* background-color: #f0f0f0; */
+      background-color: black;
+    }
+
+    .both {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    span {
+      font-size: 2.5em;
+      margin-top: 10px;
+      color: #fff0f6;
+    }
+  </style>
+
+  <title>Loading...</title>
+</head>
+
+<body>
+  <div class="both">
+    <img src="assets/img/mocha7final.gif" alt="loading...">
+    <span>Loading...</span>
+  </div>
+
+  <script>
+    setTimeout(function() {
+      window.location.href = "index.cake.html";
+    }, 3000);
+  </script>
+</body>
+
+</html>
